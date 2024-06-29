@@ -92,7 +92,7 @@ const showSuccess = ()=>{
     let login = document.createElement("button");
     login.innerText = "Login";
     login.addEventListener("click",()=>{
-        window.location.href = "/index.html";
+        window.location.href = "/Login-signup-codechef/index.html";
     });
     login.classList.add("py-3", "bg-blue-500", "text-white", "w-96", "rounded-3xl","font-bold","text-xl" ,"hover:bg-green-600", "active:bg-green-950");
     contDiv.append(login);
