@@ -122,6 +122,7 @@ for(let name of [firstName,lastName]){
                 namePar.removeChild(namePar.lastChild);
             }
             name.classList.add("bg-green-200");
+            name.parentElement.classList.add("bg-green-200");
         }
     })
 }
